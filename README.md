@@ -1,2 +1,3 @@
 # MLProject_HandLearRecog
 Machine learning project about Handwritten Learning recognition
+This paper serves as a project report for the courseMachine  Learning  by  University  of  Groningen.  This  project’saim  is  to  tackle  the  task  of  classifying  handwritten  digits.  Wepresent two  approaches to solve  this  problem. First one,  we usea simple linear classifier provided by the code basicDemo.m witha  small  modification,  which  give  an  validation  error  rate  of  7.5%.  For  the  second  approach  we  use  neural  networks  using  thedropout regularization of 0.35, obtained a validation error rate of 2 %. Using convolution neural network on test set, we reportedan  accuracy  of  70  %.

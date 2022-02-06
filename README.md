@@ -1,3 +1,8 @@
 # Machine learning project about Handwritten Learning recognition
 
 This paper serves as a project report for the course Machine  Learning  by  University  of  Groningen.  This  project’saim  is  to  tackle  the  task  of  classifying  handwritten  digits.  We present two  approaches to solve  this  problem. First one,  we usea simple linear classifier provided by the code basicDemo.m witha  small  modification,  which  give  an  validation  error  rate  of  7.5%.  For  the  second  approach  we  use  neural networks  using  thedropout regularization of 0.35, obtained a validation error rate of 2 %. Using convolution neural network on test set, we reportedan accuracy of 70  %.
+
+The problem of recognizing handwritten digits is not new in the field of artificial intelligence. For example for humans it is quite easy to recognize the symbols on the picture below.
+(https://myoctocat.com/assets/images/base-octocat.svg)
+But if we would try to write a program to do it by a computer (considered we are not familiar with Neural Networks and Machine Learning) we would soon find out that it is not a trivial task to tackle. That's because our brain has an incredible power of analyzing visual data. Speaking in terms of Neural Networks, our brain has up to five layers of neurons with 140 million neurons on the first layer only. We should also add to that probably millions of years of tuning by trial and error with a low evolution rate. That's the main reason humans are so good at this task. But can we get a similar or maybe even better accuracy with the help of a computer program? In this report we show the results obtained by different approaches we tested. 
+ 
